@@ -1,5 +1,6 @@
 package lab.music.entity;
 
-public class Playable {
-
+public interface Playable {
+    void setVolume(int volume);
+    void stop();
 }
